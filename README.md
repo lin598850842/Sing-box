@@ -12,7 +12,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/lin598850842/sing-box/main/sin
 
 ## ssh综合工具箱一键脚本
 ```
-curl -fsSL https://raw.githubusercontent.com/eooce/ssh_tool/main/ssh_tool.sh -o ssh_tool.sh && chmod +x ssh_tool.sh && ./ssh_tool.sh
+curl -fsSL https://raw.githubusercontent.com/lin598850842/ssh_tool/main/ssh_tool.sh -o ssh_tool.sh && chmod +x ssh_tool.sh && ./ssh_tool.sh
 ```
 
 # 2：Serv00|CT8一键安装脚本,集成哪吒探针
@@ -24,7 +24,7 @@ curl -fsSL https://raw.githubusercontent.com/eooce/ssh_tool/main/ssh_tool.sh -o 
 
 ## Serv00|CT8一键四协议安装脚本vmess-ws|vmess-ws-tls(argo)|hy2|tuic5
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/eooce/sing-box/main/sb_serv00.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/lin598850842/sing-box/main/sb_serv00.sh)
 ```
 
 ## Serv00|CT8一键四协议无交互安装脚本vmess-ws|vmess-ws-tls(argo)|hy2|tuic5，需设置环境变量
@@ -32,12 +32,12 @@ bash <(curl -Ls https://raw.githubusercontent.com/eooce/sing-box/main/sb_serv00.
 * 可选环境变量：UUID NEZHA_SERVER NEZHA_PORT NEZHA_KEY ARGO_DOMAIN ARGO_AUTH CFIP CFPORT
 * ARGO_AUTH变量使用json时，ARGO_AUTH=‘json’  需用英文输入状态下的单引号包裹，例如：ARGO_AUTH='{"AccountTag":"123","TunnelSecret":"123","TunnelID":"123"}' 
 ```
-VMESS_PORT=tcp端口 HY2_PORT=udp端口 TUIC_PORT=udp端口 bash <(curl -Ls https://raw.githubusercontent.com/eooce/sing-box/main/sb_00.sh)
+VMESS_PORT=tcp端口 HY2_PORT=udp端口 TUIC_PORT=udp端口 bash <(curl -Ls https://raw.githubusercontent.com/lin598850842/sing-box/main/sb_00.sh)
 ```
 
 ## Serv00|CT8一键三协议安装脚本vless-reality|hy2|tuic5 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/eooce/sing-box/test/sb_00.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/lin598850842/sing-box/test/sb_00.sh)
 ```
 
 ## Serv00|CT8一键三协议无交互安装脚本vless-reality|vmess-splithttp|vmess-splithttp-tls(argo) 
@@ -45,7 +45,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/eooce/sing-box/test/sb_00.sh)
 * 可选环境变量：UUID CFIP CFPORT NEZHA_SERVER NEZHA_PORT NEZHA_KEY ARGO_DOMAIN ARGO_AUTH
 * ARGO_AUTH变量使用json时，ARGO_AUTH=‘json’ 需英文输入状态下的单引号包裹，例如：ARGO_AUTH='{"AccountTag":"123","TunnelSecret":"123","TunnelID":"123"}' 
 ```
-VLESS_PORT=TCP端口 ARGO_PORT=TCP端口 bash <(curl -Ls https://raw.githubusercontent.com/eooce/sing-box/test/x00.sh)
+VLESS_PORT=TCP端口 ARGO_PORT=TCP端口 bash <(curl -Ls https://raw.githubusercontent.com/lin598850842/sing-box/test/x00.sh)
 ```
 
 ## Serv00|CT8 hysteria2无交互一键安装脚本
@@ -56,7 +56,7 @@ PORT=UDP端口 bash <(curl -Ls https://00.2go.us.kg/2.sh)
 ```
 或
 ```
-PORT=UDP端口 bash <(curl -Ls https://github.com/eooce/Sing-box/releases/download/00/2.sh)
+PORT=UDP端口 bash <(curl -Ls https://github.com/lin598850842/Sing-box/releases/download/00/2.sh)
 ```
 
 ## Serv00|CT8 tuic无交互一键安装脚本
@@ -68,7 +68,7 @@ PORT=UDP端口 bash <(curl -Ls https://00.2go.us.kg/tu.sh)
 ```
 或
 ```
-PORT=UDP端口 bash <(curl -Ls https://github.com/eooce/Sing-box/releases/download/00/tu.sh)
+PORT=UDP端口 bash <(curl -Ls https://github.com/lin598850842/Sing-box/releases/download/00/tu.sh)
 ```
 
 ## Serv00|CT8 vmess-ws-tls(argo)一键脚本
@@ -76,7 +76,7 @@ PORT=UDP端口 bash <(curl -Ls https://github.com/eooce/Sing-box/releases/downlo
 * 可选变量：UUID  NEZHA_SERVER  NEZHA_PORT  NEZHA_KEY  CFIP CFPORT ARGO_DOMAIN  ARGO_AUTH
 
 ```
-PORT=TCP端口 bash <(curl -Ls https://raw.githubusercontent.com/eooce/scripts/master/containers-shell/00_vmess.sh)
+PORT=TCP端口 bash <(curl -Ls https://raw.githubusercontent.com/lin598850842/scripts/master/containers-shell/00_vmess.sh)
 ```
 
 
